@@ -124,21 +124,11 @@
         <progresstexture border="5" colordiffuse="bf777777">pvr/progressline-half.png</progresstexture>
     </include>
 
-
-	<include name="View_PVR_OSD_Channel_Group_Rotate">
-        <onleft>PreviousChannelGroup</onleft>
-        <onright>NextChannelGroup</onright>
-	</include>
-
-	<include name="View_PVR_Guide_Group_Focus">
-        <onback>11</onback>	
-	</include>
-
     <include name="View_PVR_Guide_Icon">
         <control type="epggrid" id="10" description="EPG">
             <onup>11</onup>
             <ondown>11</ondown>
-			<include condition="!Skin.HasSetting(DisableEnhancedPVRNavigation)">View_PVR_Guide_Group_Focus</include>
+	        <onback>11</onback>	
             <viewtype label="19069">list</viewtype>
             <include condition="!Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Full</include>
             <include condition="Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Half</include>
@@ -232,7 +222,7 @@
         <control type="epggrid" id="10" description="EPG">
             <onup>11</onup>
             <ondown>11</ondown>
-			<include condition="!Skin.HasSetting(DisableEnhancedPVRNavigation)">View_PVR_Guide_Group_Focus</include>
+			<onback>11</onback>	
             <viewtype label="19069">list</viewtype>
             <include condition="!Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Full</include>
             <include condition="Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Half</include>
@@ -411,7 +401,7 @@
 						<include content="Object_Variable_TextColor">
 					    	<param name="std" value="main_fg_30" />
 					    	<param name="alt" value="main_fg_70" />
-					    	<param name="usealt" value="!Skin.HasSetting(DisableBrighterWidgetText)" />
+					    	<param name="usealt" value="Skin.HasSetting(EnableHighContrastWidgetText)" />
 						</include>
                         <font>font_tiny_bold</font>
                         <height>24</height>

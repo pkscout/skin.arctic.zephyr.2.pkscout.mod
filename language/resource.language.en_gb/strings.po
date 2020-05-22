@@ -1492,38 +1492,17 @@ msgctxt "#31437"
 msgid "Tracks from"
 msgstr ""
 
-
 #: /1080i/SkinSettings.xml
-msgctxt "#31900"
-msgid "pkscout Mods"
+msgctxt "#31438"
+msgid "Use higher contrast text for unselected widgets"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
-msgctxt "#31901"
-msgid "Use brighter text for unselected widgets"
-msgstr ""
-
-#: /1080i/SkinSettings.xml
-msgctxt "#31902"
+msgctxt "#31439"
 msgid "Show page and item counts on list pages"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
-msgctxt "#31903"
-msgid "Use detailed PVR timer list"
-msgstr ""
-
-#: /1080i/SkinSettings.xml
-msgctxt "#31904"
-msgid "Include season/episode number and title in PVR listing details"
-msgstr ""
-
-#: /1080i/SkinSettings.xml
-msgctxt "#31905"
-msgid "Use enhanced PVR navigation"
-msgstr ""
-
-#: /1080i/SkinSettings.xml
-msgctxt "#31906"
-msgid "Allow artwork in empty parent directory"
+msgctxt "#31440"
+msgid "Show detailed PVR listings"
 msgstr ""

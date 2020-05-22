@@ -7,7 +7,7 @@
     </variable>
 
     <variable name="Label_PVRGuide_SubTitle">
-    	<value condition="Skin.HasSetting(DisableLongPVRSubtitle)">$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$INFO[ListItem.Genre,  |  [COLOR main_fg_100],[/COLOR]]</value>
+    	<value condition="Skin.HasSetting(PVR.DisableDetailedInfo)">$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$INFO[ListItem.Genre,  |  [COLOR main_fg_100],[/COLOR]]</value>
         <value>$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$VAR[Label_SeasonEpisodeLabel_NoColon,  |  [COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EpisodeName,  |  [COLOR main_fg_100],[/COLOR]]$INFO[ListItem.Genre,  |  [COLOR main_fg_100],[/COLOR]]</value>
     </variable>
 

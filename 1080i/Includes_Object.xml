@@ -296,23 +296,11 @@
                 <orientation>horizontal</orientation>
 
                 <itemlayout width="item_smallsquare_width" height="item_row_height" condition="$PARAM[smallsquarecondition]">
-                    <include content="View_512_Wall_Itemlayout" condition="!Skin.HasSetting(EnableHighContrastWidgetText)">
+                    <include content="View_512_Wall_Itemlayout">
                         <param name="aspectratio" value="keep" />
                         <param name="icononlyheight" value="item_smallsquare_iconheight" />
-                        <param name="textfade_end" value="40" />
-                        <param name="textfade_start" value="40" />
-                        <param name="bordersize" value="90" />
-                        <param name="selectbox" value="false" />
-                        <param name="diffuse" value="diffuse/square-wall.png" />
-                        <param name="icon" value="$VAR[Image_Poster]" />
-                        <param name="id" value="$PARAM[id]" />
-                        <param name="labelinclude" value="$PARAM[squarelabelinclude]" />
-                    </include>
-                    <include content="View_512_Wall_Itemlayout" condition="Skin.HasSetting(EnableHighContrastWidgetText)">
-                        <param name="aspectratio" value="keep" />
-                        <param name="icononlyheight" value="item_smallsquare_iconheight" />
-                        <param name="textfade_end" value="70" />
-                        <param name="textfade_start" value="70" />
+                        <param name="textfade_end" value="$VAR[Defs_WidgetTextContrast_End]" />
+                        <param name="textfade_start" value="$VAR[Defs_WidgetTextContrast_Start]" />
                         <param name="bordersize" value="90" />
                         <param name="selectbox" value="false" />
                         <param name="diffuse" value="diffuse/square-wall.png" />
@@ -322,22 +310,11 @@
                     </include>
                 </itemlayout>
                 <focusedlayout width="item_smallsquare_width" height="item_row_height" condition="$PARAM[smallsquarecondition]">
-                    <include content="View_512_Wall_Itemlayout" condition="!Skin.HasSetting(EnableHighContrastWidgetText)">
+                    <include content="View_512_Wall_Itemlayout">
                         <param name="selectbox" value="true" />
                         <param name="aspectratio" value="keep" />
                         <param name="icononlyheight" value="item_smallsquare_iconheight" />
-                        <param name="textfade_start" value="40" />
-                        <param name="bordersize" value="90" />
-                        <param name="diffuse" value="diffuse/square-wall.png" />
-                        <param name="icon" value="$VAR[Image_Poster]" />
-                        <param name="id" value="$PARAM[id]" />
-                        <param name="labelinclude" value="$PARAM[squarelabelinclude]" />
-                    </include>
-                    <include content="View_512_Wall_Itemlayout" condition="Skin.HasSetting(EnableHighContrastWidgetText)">
-                        <param name="selectbox" value="true" />
-                        <param name="aspectratio" value="keep" />
-                        <param name="icononlyheight" value="item_smallsquare_iconheight" />
-                        <param name="textfade_start" value="70" />
+                        <param name="textfade_start" value="$VAR[Defs_WidgetTextContrast_Start]" />
                         <param name="bordersize" value="90" />
                         <param name="diffuse" value="diffuse/square-wall.png" />
                         <param name="icon" value="$VAR[Image_Poster]" />
@@ -370,22 +347,11 @@
                 </focusedlayout>
 
                 <itemlayout width="item_smalllandscape_width" height="item_row_height" condition="$PARAM[smalllandscapecondition]">
-                    <include content="View_51_Wall_Itemlayout" condition="!Skin.HasSetting(EnableHighContrastWidgetText)">
+                    <include content="View_51_Wall_Itemlayout">
                         <param name="iconheight" value="item_icon_height" />
                         <param name="icononlyheight" value="item_smalllandscape_iconheight" />
-                        <param name="textfade_end" value="40" />
-                        <param name="textfade_start" value="40" />
-                        <param name="selectbox" value="false" />
-                        <param name="icon" value="$VAR[Image_Landscape]" />
-                        <param name="diffuse" value="diffuse/landscape-small-wall.png" />
-                        <param name="labelinclude" value="$PARAM[smalllandscapelabelinclude]" />
-                        <param name="id" value="$PARAM[id]" />
-                    </include>
-                    <include content="View_51_Wall_Itemlayout" condition="Skin.HasSetting(EnableHighContrastWidgetText)">
-                        <param name="iconheight" value="item_icon_height" />
-                        <param name="icononlyheight" value="item_smalllandscape_iconheight" />
-                        <param name="textfade_end" value="70" />
-                        <param name="textfade_start" value="70" />
+                        <param name="textfade_end" value="$VAR[Defs_WidgetTextContrast_Start]" />
+                        <param name="textfade_start" value="$VAR[Defs_WidgetTextContrast_End]" />
                         <param name="selectbox" value="false" />
                         <param name="icon" value="$VAR[Image_Landscape]" />
                         <param name="diffuse" value="diffuse/landscape-small-wall.png" />
@@ -394,20 +360,10 @@
                     </include>
                 </itemlayout>
                 <focusedlayout width="item_smalllandscape_width" height="item_row_height" condition="$PARAM[smalllandscapecondition]">
-                    <include content="View_51_Wall_Itemlayout" condition="!Skin.HasSetting(EnableHighContrastWidgetText)">
+                    <include content="View_51_Wall_Itemlayout">
                         <param name="selectbox" value="true" />
                         <param name="iconheight" value="item_icon_height" />
-                        <param name="textfade_start" value="40" />
-                        <param name="icononlyheight" value="item_smalllandscape_iconheight" />
-                        <param name="icon" value="$VAR[Image_Landscape]" />
-                        <param name="diffuse" value="diffuse/landscape-small-wall.png" />
-                        <param name="labelinclude" value="$PARAM[smalllandscapelabelinclude]" />
-                        <param name="id" value="$PARAM[id]" />
-                    </include>
-                    <include content="View_51_Wall_Itemlayout" condition="Skin.HasSetting(EnableHighContrastWidgetText)">
-                        <param name="selectbox" value="true" />
-                        <param name="iconheight" value="item_icon_height" />
-                        <param name="textfade_start" value="70" />
+                        <param name="textfade_start" value="$VAR[Defs_WidgetTextContrast_Start]" />
                         <param name="icononlyheight" value="item_smalllandscape_iconheight" />
                         <param name="icon" value="$VAR[Image_Landscape]" />
                         <param name="diffuse" value="diffuse/landscape-small-wall.png" />

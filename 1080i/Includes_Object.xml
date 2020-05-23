@@ -912,14 +912,19 @@
     <include name="Object_Info_Details_PVR">
         <include content="Object_Info_TextPairs">
             <param name="pad" value="24" />
-            <param name="name" value="Date" />
+            <param name="name" value="$LOCALIZE[552]" />
             <param name="label" value="ListItem.StartDate" />
         </include>
         <include content="Object_Info_TextPairs">
             <param name="pad" value="24" />
-            <param name="name" value="Time" />
+            <param name="name" value="$LOCALIZE[555]" />
             <param name="label" value="ListItem.StartTime" />
             <param name="label2" value="$INFO[ListItem.EndTime,  -  ,]" />
+        </include>
+        <include content="Object_Info_TextPairs" condition="!Skin.HasSetting(PVR.DisableDetailedInfo)">
+            <param name="pad" value="24" />
+            <param name="name" value="$LOCALIZE[180]" />
+            <param name="label" value="ListItem.Duration" />
         </include>
         <!-- <include content="Object_Info_TextPairs">
             <param name="pad" value="24" />

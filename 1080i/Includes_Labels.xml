@@ -7,8 +7,7 @@
     </variable>
 
     <variable name="Label_PVRGuide_SubTitle">
-    	<value condition="Skin.HasSetting(PVR.DisableDetailedInfo)">$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$INFO[ListItem.Genre,  |  [COLOR main_fg_100],[/COLOR]]</value>
-        <value>$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$VAR[Label_SeasonEpisodeLabel_NoColon,  |  [COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EpisodeName,  |  [COLOR main_fg_100],[/COLOR]]$INFO[ListItem.Genre,  |  [COLOR main_fg_100],[/COLOR]]</value>
+    	<value>$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$VAR[Label_SubTitle,  |  ]</value>
     </variable>
 
     <variable name="Label_PVRGuide_ChannelNumber">
@@ -286,10 +285,7 @@
     <variable name="Label_Filtered">
         <value condition="Container.Filtered">$LOCALIZE[16041]</value>
         <value>$LOCALIZE[351]</value>
-    </variable>
-
-
-    
+    </variable> 
 
     <variable name="Label_Premiered">
         <value condition="!String.IsEmpty(ListItem.Premiered) + !String.IsEqual(ListItem.DBType,movie) + !String.IsEqual(ListItem.DBType,set) + !String.IsEqual(ListItem.DBType,tvshow) + !String.IsEqual(ListItem.DBType,season)">$INFO[ListItem.Premiered]</value>
@@ -367,6 +363,8 @@
         <value condition="Container.Content(seasons) + !String.IsEmpty(ListItem.Episode)">$INFO[ListItem.Property(WatchedEpisodes),[COLOR=main_fg_100]$LOCALIZE[16102] , $LOCALIZE[20163][/COLOR] ]$INFO[ListItem.Episode,[COLOR=main_fg_100], $LOCALIZE[20453][/COLOR]]</value>
 
         <value condition="Container.Content(episodes)">$INFO[ListItem.Studio,[COLOR=main_fg_100],[/COLOR]  ]$INFO[ListItem.Premiered,[COLOR=main_fg_100],[/COLOR]]</value>
+
+        <value condition="[Window.IsVisible(DialogPVRInfo.xml) | Window.IsVisible(MyPVRTimers.xml) | Window.IsVisible(MyPVRGuide.xml)] + !Skin.HasSetting(PVR.DisableDetailedInfo)">$VAR[Label_SeasonEpisodeLabel_NoColon,[COLOR main_fg_100],[/COLOR]  |  ]$INFO[ListItem.EpisodeName,[COLOR main_fg_100],[/COLOR]  |  ]$INFO[ListItem.Genre,[COLOR main_fg_100],[/COLOR]]</value>
 
         <value condition="!String.IsEmpty(ListItem.Genre)">$INFO[ListItem.Genre,[COLOR=main_fg_100],[/COLOR]]</value>
 

@@ -711,72 +711,28 @@
 				<fadetime>200</fadetime>
 			</control>
 			<control type="grouplist">
-				<top>5</top>
-				<left>0</left>
-				<width>590</width>
-				<height>200</height>
-				<itemgap>15</itemgap>
-				<control type="label">
-					<aligny>top</aligny>
-					<height>35</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_medium_bold</font>
-					<label>$INFO[ListItem.ChannelName]</label>
-				</control>
-				<control type="label">
-					<aligny>top</aligny>
-					<height>135</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_small</font>
-					<label>$INFO[ListItem.Date,,[CR]]$INFO[ListItem.Duration,[B]$LOCALIZE[180]: [/B]]</label>
-					<wrapmultiline>true</wrapmultiline>
-				</control>
+				<width>600</width>
+                <include content="Object_Info_Title">
+                    <param name="label" value="$INFO[ListItem.ChannelName]" />
+                </include>
+				<include>Object_Info_Details_PVR</include>
 			</control>
 			<control type="grouplist">
 				<top>260</top>
-				<control type="label">
-					<width>830</width>
-					<height>62</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_medium_bold</font>
-					<label>$INFO[ListItem.Title]</label>
-					<visible>!PVR.HasEpg</visible>
-				</control>
-				<control type="label">
-					<width>830</width>
-					<height>262</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_medium_bold</font>
-					<label>$INFO[ListItem.EpgEventTitle]</label>
-					<visible>PVR.HasEpg</visible>
-				</control>
-				<control type="label">
-					<visible>!String.IsEmpty(ListItem.EpisodeName) | !String.IsEmpty(ListItem.Season) | !String.IsEmpty(ListItem.Episode)</visible>
-					<width>830</width>
-					<height>35</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_small</font>
-					<label>[I]$VAR[Label_SeasonEpisodeLabel]$INFO[ListItem.EpisodeName][/I]</label>
-				</control>
-				<control type="textbox">
-					<visible>!String.IsEmpty(Listitem.Plot)</visible>
-					<width>830</width>
-					<height>350</height>
-					<textcolor>main_fg_100</textcolor>
-					<font>font_plotbox</font>
-					<label>$INFO[ListItem.Plot]</label>
-					<autoscroll delay="10000" time="3000" repeat="10000" />
-				</control>
-				<control type="textbox">
-					<visible>String.IsEmpty(Listitem.Plot)</visible>
-					<width>830</width>
-					<height>350</height>
-					<align>center</align>
-					<font>font_small</font>
-					<textcolor>main_fg_100</textcolor>
-					<label>$LOCALIZE[19055]</label>
-				</control>
-			</control>
+				<width>820</width>
+                <include content="Object_Info_Title">
+                	<param name="font" value="font_title" />
+                    <param name="label" value="$VAR[Label_MainTitle]" />
+                </include>
+                <include content="Object_Info_Line_Label">
+                    <param name="label" value="$VAR[Label_SubTitle]" />
+                    <param name="textcolor" value="$VAR[ColorHighlight]" />
+                    <param name="divider" value="false" />
+                </include>
+                <include content="Object_Info_Plot">
+                    <param name="maxheight" value="360" />
+                </include>
+            </control>
 		</control>
 		<control type="group">
 			<visible>ListItem.IsFolder</visible>
@@ -809,7 +765,7 @@
 						</control>
 					</focusedlayout>
 					<itemlayout height="130" width="780">
-						<control type="label">
+ 						<control type="label">
 							<left>10</left>
 							<width>830</width>
 							<aligny>top</aligny>

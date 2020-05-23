@@ -1,4 +1,4 @@
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.2~beta1">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.2~beta2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -16,13 +16,8 @@
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-0.5.2~beta1
-- change so that higher contrast widget text and showing item count in media lists are off by default
-- fix so music osd and video osd share clearart in seekbar setting
-- made artwork for empty directories part of core and removed option to change it
-- made enhanced PVR navigation part of core and removed option to change it
-- combined PVR look and feel enhancements into one setting
-- moved settings to appropriate areas
+0.5.2~beta2
+- fix so PVR Timer details look more like other PVR info pages
     	</news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>

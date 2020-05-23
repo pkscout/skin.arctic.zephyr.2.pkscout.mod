@@ -1,3 +1,15 @@
+0.5.2~beta2
+- fix so PVR Timer details look more like other PVR info pages
+
+0.5.2~beta1
+- change so that higher contrast widget text and showing item count in media lists are off by default
+- fix so music osd and video osd share clearart in seekbar setting
+- made artwork for empty directories part of core and removed option to change it
+- made enhanced PVR navigation part of core and removed option to change it
+- combined PVR look and feel enhancements into one setting
+- moved settings to appropriate areas
+
+
 0.5.1
 - added option to allow artwork in empty parent directories
 - added ability to rotate through PVR channel groups in PVR OSD Channel display using left/right

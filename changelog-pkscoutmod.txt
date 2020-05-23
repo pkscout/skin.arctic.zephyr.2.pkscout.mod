@@ -1,3 +1,7 @@
+0.5.2~beta3
+- simpler PVR timer list page
+- made detailed PVR information part of core and removed option to change it
+
 0.5.2~beta2
 - fix so PVR Timer details look more like other PVR info pages
 

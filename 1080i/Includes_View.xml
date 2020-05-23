@@ -128,7 +128,7 @@
         <control type="epggrid" id="10" description="EPG">
             <onup>11</onup>
             <ondown>11</ondown>
-	        <onback>11</onback>	
+            <onback>11</onback>    
             <viewtype label="19069">list</viewtype>
             <include condition="!Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Full</include>
             <include condition="Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Half</include>
@@ -222,7 +222,7 @@
         <control type="epggrid" id="10" description="EPG">
             <onup>11</onup>
             <ondown>11</ondown>
-			<onback>11</onback>	
+            <onback>11</onback>    
             <viewtype label="19069">list</viewtype>
             <include condition="!Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Full</include>
             <include condition="Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_ProgressLine_Half</include>
@@ -398,11 +398,11 @@
                         <width>auto</width>
                         <label>$PARAM[label]</label>
                         <aligny>center</aligny>
-						<include content="Object_Variable_TextColor">
-					    	<param name="std" value="main_fg_30" />
-					    	<param name="alt" value="main_fg_70" />
-					    	<param name="usealt" value="Skin.HasSetting(EnableHighContrastWidgetText)" />
-						</include>
+                        <include content="Object_Variable_TextColor">
+                            <param name="std" value="main_fg_30" />
+                            <param name="alt" value="main_fg_70" />
+                            <param name="usealt" value="Skin.HasSetting(EnableHighContrastWidgetText)" />
+                        </include>
                         <font>font_tiny_bold</font>
                         <height>24</height>
                         <visible>Integer.IsGreater(Container($PARAM[id]).NumItems,0) | Container($PARAM[id]).IsUpdating</visible>

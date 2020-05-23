@@ -195,8 +195,8 @@
                                     <control type="label">
                                         <include content="Object_Variable_Width">
                                             <param name="std" value="30" />
-        									<param name="alt" value="40" />
-									        <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
+                                            <param name="alt" value="40" />
+                                            <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
                                         </include>
                                         <font>font_small</font>
                                         <textcolor>main_fg_100</textcolor>
@@ -229,8 +229,8 @@
                                     <control type="label">
                                         <include content="Object_Variable_Width">
                                             <param name="std" value="30" />
-        									<param name="alt" value="40" />
-									        <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
+                                            <param name="alt" value="40" />
+                                            <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
                                         </include>
                                         <font>font_small</font>
                                         <textcolor>main_bg_100</textcolor>

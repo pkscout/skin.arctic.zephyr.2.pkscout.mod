@@ -118,7 +118,6 @@
                                 <include content="Object_Info_Button">
                                     <param name="id" value="12" />
                                     <param name="groupid" value="8012" />
-                                    <param name="width" value="60" />
                                     <param name="label" value="$INFO[Control.GetLabel(12)]" />
                                     <param name="icon" value="special://skin/extras/icons/play3.png" />
                                     <param name="visible" value="Control.IsEnabled(12)" />

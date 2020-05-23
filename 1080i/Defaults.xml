@@ -213,10 +213,12 @@
     <expression name="Exp_GlobalBackground">[!Player.HasMedia | [Player.HasVideo + !Skin.HasSetting(global.showvideo)] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio] | [Player.HasAudio + !String.IsEmpty(Window(Home).Property(PlayingBackgroundMedia))]]</expression>
 
 	<expression name="FontSetIsDefault">String.IsEqual(Skin.Font,Default)</expression>
-	<expression name="FontSetIsMedium">String.IsEqual(Skin.Font,Roboto Regular)</expression>
-	<expression name="FontSetIsLarger">String.IsEqual(Skin.Font,Roboto Regular Larger)</expression>
-	<expression name="FontSetIsMediumOrLarger">String.Contains(Skin.Font,Roboto Regular)</expression>
 
+	<expression name="FontSetIsMedium">String.IsEqual(Skin.Font,Roboto Regular)</expression>
+
+	<expression name="FontSetIsLarger">String.IsEqual(Skin.Font,Roboto Regular Larger)</expression>
+
+	<expression name="FontSetIsMediumOrLarger">String.Contains(Skin.Font,Roboto Regular)</expression>
 
     <include name="Defaults_FauneFonts">
         <!-- Plot Font -->

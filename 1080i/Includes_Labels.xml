@@ -7,7 +7,7 @@
     </variable>
 
     <variable name="Label_PVRGuide_SubTitle">
-    	<value>$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$VAR[Label_SubTitle,  |  ]</value>
+        <value>$INFO[ListItem.StartTime,[COLOR main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR main_fg_100]  -  ,[/COLOR]]$VAR[Label_SubTitle,  |  ]</value>
     </variable>
 
     <variable name="Label_PVRGuide_ChannelNumber">
@@ -15,24 +15,24 @@
     </variable>
 
     <variable name="Label_TimersSubLabel">
-		<value condition="[Window.IsActive(tvtimerrules) | Window.IsActive(radiotimerrules)] + !ListItem.HasTimerSchedule">$INFO[ListItem.Timertype]</value>
-		<value>$INFO[ListItem.EpisodeName]</value>
-	</variable>
-	
-	<variable name="Label_ChannelListEPGIconVar">
-		<value condition="!String.IsEmpty(Listitem.EpgEventIcon)">$INFO[ListItem.EpgEventIcon]</value>
-		<value>$INFO[ListItem.Icon]</value>
-	</variable>
+        <value condition="[Window.IsActive(tvtimerrules) | Window.IsActive(radiotimerrules)] + !ListItem.HasTimerSchedule">$INFO[ListItem.Timertype]</value>
+        <value>$INFO[ListItem.EpisodeName]</value>
+    </variable>
     
-	<variable name="Label_SeasonEpisodeLabel">
-		<value condition="String.IsEmpty(ListItem.EpisodeName)">$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
-		<value>$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E,: ]</value>
-	</variable>
+    <variable name="Label_ChannelListEPGIconVar">
+        <value condition="!String.IsEmpty(Listitem.EpgEventIcon)">$INFO[ListItem.EpgEventIcon]</value>
+        <value>$INFO[ListItem.Icon]</value>
+    </variable>
+    
+    <variable name="Label_SeasonEpisodeLabel">
+        <value condition="String.IsEmpty(ListItem.EpisodeName)">$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
+        <value>$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E,: ]</value>
+    </variable>
 
-	<variable name="Label_SeasonEpisodeLabel_NoColon">
-		<value condition="String.IsEmpty(ListItem.EpisodeName)">$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
-		<value>$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
-	</variable>
+    <variable name="Label_SeasonEpisodeLabel_NoColon">
+        <value condition="String.IsEmpty(ListItem.EpisodeName)">$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
+        <value>$INFO[ListItem.Season,S]$INFO[ListItem.Episode,E]</value>
+    </variable>
 
     <variable name="Label_Info_PlayButton">
         <value condition="ListItem.IsFolder">$LOCALIZE[1024]</value>

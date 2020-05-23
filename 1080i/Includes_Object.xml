@@ -537,14 +537,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="64" />
-                    	<param name="alt" value="96" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="64" />
+                        <param name="alt" value="96" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="56" />
-                    	<param name="alt" value="84" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="56" />
+                        <param name="alt" value="84" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio align="left">keep</aspectratio>
                     <texture colordiffuse="main_fg_90">flags/monochrome/other/3D.png</texture>
@@ -555,14 +555,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="64" />
-                    	<param name="alt" value="96" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="64" />
+                        <param name="alt" value="96" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="56" />
-                    	<param name="alt" value="84" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="56" />
+                        <param name="alt" value="84" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio align="left">keep</aspectratio>
                     <texture colordiffuse="main_fg_90">flags/monochrome/other/HDR.png</texture>
@@ -573,14 +573,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="62" />
-                    	<param name="alt" value="93" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="62" />
+                        <param name="alt" value="93" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="56" />
-                    	<param name="alt" value="84" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="56" />
+                        <param name="alt" value="84" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio align="left">keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$VAR[Image_RipSource]</texture>
@@ -591,14 +591,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="64" />
-                    	<param name="alt" value="96" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="64" />
+                        <param name="alt" value="96" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="42" />
-                    	<param name="alt" value="63" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="42" />
+                        <param name="alt" value="63" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$INFO[ListItem.VideoResolution,flags/monochrome/resolution/,.png]</texture>
@@ -609,14 +609,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="71" />
-                    	<param name="alt" value="107" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="71" />
+                        <param name="alt" value="107" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="48" />
-                    	<param name="alt" value="72" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="48" />
+                        <param name="alt" value="72" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$INFO[ListItem.VideoCodec,flags/monochrome/source/,.png]</texture>
@@ -627,14 +627,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="71" />
-                    	<param name="alt" value="107" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="71" />
+                        <param name="alt" value="107" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="48" />
-                    	<param name="alt" value="72" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="48" />
+                        <param name="alt" value="72" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$INFO[ListItem.VideoAspect,flags/monochrome/aspectratio/,.png]</texture>
@@ -645,14 +645,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="71" />
-                    	<param name="alt" value="107" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="71" />
+                        <param name="alt" value="107" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="48" />
-                    	<param name="alt" value="72" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="48" />
+                        <param name="alt" value="72" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$VAR[Image_AudioCodec]</texture>
@@ -664,14 +664,14 @@
                     <fadetime>100</fadetime>
                     <centertop>50%</centertop>
                     <include content="Object_Variable_Width">
-                    	<param name="std" value="32" />
-                    	<param name="alt" value="48" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="32" />
+                        <param name="alt" value="48" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <include content="Object_Variable_Height">
-                    	<param name="std" value="32" />
-                    	<param name="alt" value="48" />
-                    	<param name="usealt" value="$EXP[FontSetIsLarger]" />
+                        <param name="std" value="32" />
+                        <param name="alt" value="48" />
+                        <param name="usealt" value="$EXP[FontSetIsLarger]" />
                     </include>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="main_fg_90">$INFO[ListItem.AudioChannels,flags/monochrome/channels/,.png]</texture>
@@ -1058,11 +1058,11 @@
                 <height>40</height>
                 <aligny>top</aligny>
                 <textcolor>$VAR[ColorHighlight]</textcolor>
-            	<include content="Object_Variable_Font">
-            		<param name="std" value="font_small" />
-            		<param name="alt" value="font_tiny" />
-            		<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-            	</include>
+                <include content="Object_Variable_Font">
+                    <param name="std" value="font_small" />
+                    <param name="alt" value="font_tiny" />
+                    <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
+                </include>
 
                 <visible>!String.IsEmpty(Control.GetLabel($PARAM[id]))</visible>
                 <visible>$PARAM[divider]</visible>
@@ -1074,17 +1074,17 @@
                 <height>40</height>
                 <aligny>top</aligny>
                 <textcolor>$PARAM[textcolor]</textcolor>
-            	<include content="Object_Variable_Font">
-            		<param name="std" value="font_small" />
-            		<param name="alt" value="font_tiny" />
-            		<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-            	</include>
+                <include content="Object_Variable_Font">
+                    <param name="std" value="font_small" />
+                    <param name="alt" value="font_tiny" />
+                    <param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
+                </include>
 
                 <visible>$PARAM[visible]</visible>
             </control>
         </definition>
     </include>
-    
+
     <include name="Object_Info_Line">
         <param name="label" default="$VAR[Label_InfoLine_01]" />
         <param name="hdsd" default="Skin.HasSetting(Hide_Codecs)" />
@@ -1648,21 +1648,21 @@
                 <texturenofocus />
                 <nested />
             </control>
-           	<control type="label" id="1$PARAM[groupid]">
-            	<textoffsetx>0</textoffsetx>
-            	<include content="Object_Variable_Width">
-            		<param name="std" value="$PARAM[width]" />
-            		<param name="alt" value="$PARAM[altwidth]" />
-            		<param name="usealt" value="$PARAM[usealtwidth]" />
-            	</include>
-    	        <align>left</align>
+            <control type="label" id="1$PARAM[groupid]">
+                <textoffsetx>0</textoffsetx>
+                <include content="Object_Variable_Width">
+                    <param name="std" value="$PARAM[width]" />
+                    <param name="alt" value="$PARAM[altwidth]" />
+                    <param name="usealt" value="$PARAM[usealtwidth]" />
+                </include>
+                <align>left</align>
                 <label>$PARAM[label]</label>
-        	    <textcolor>main_fg_100</textcolor>
-            	<focusedcolor>main_fg_100</focusedcolor>
-	            <font>font_info_buttons</font>
-    	        <visible>Control.HasFocus($PARAM[id])</visible>
+                <textcolor>main_fg_100</textcolor>
+                <focusedcolor>main_fg_100</focusedcolor>
+                <font>font_info_buttons</font>
+                <visible>Control.HasFocus($PARAM[id])</visible>
                 <visible>$PARAM[visible]</visible>
-        	</control>
+            </control>
         </definition>
     </include>
 

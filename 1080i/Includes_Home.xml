@@ -420,10 +420,10 @@
             </control>
 
         <control type="group">
-        	<left>240</left>
-        	<visible>String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]</visible>
-			<include>PVRRecordingWidgets</include>
-		</control>
+            <left>240</left>
+            <visible>String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]</visible>
+            <include>PVRRecordingWidgets</include>
+        </control>
 
             <control type="group">
                 <include content="View_Group">
@@ -585,7 +585,7 @@
                     </control>
                     
                     <control type="group" id="99300">
-				        <animation effect="slide" start="0,0" end="0,250" time="0" tween="sine" condition="String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]">Conditional</animation>
+                        <animation effect="slide" start="0,0" end="0,250" time="0" tween="sine" condition="String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]">Conditional</animation>
                         <height>view_height</height>
                         <width>1800</width>
                         <include>Animation_Right</include>
@@ -950,10 +950,10 @@
         </control>
 
         <control type="group">
-        	<left>-24</left>
-        	<visible>String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]</visible>
-			<include>PVRTVRecordingWidget</include>
-		</control>
+            <left>-24</left>
+            <visible>String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]</visible>
+            <include>PVRTVRecordingWidget</include>
+        </control>
 
         <control type="group">
             <top>view_top</top>
@@ -967,7 +967,7 @@
         <control type="group">
             <include>View_Group</include>
             <control type="group">
-	        	<animation effect="slide" start="0,0" end="0,250" time="0" tween="sine" condition="String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]">Conditional</animation>
+                <animation effect="slide" start="0,0" end="0,250" time="0" tween="sine" condition="String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),TV PVR Recording Widget) + [PVR.IsRecordingTV | PVR.HasNonRecordingTVTimer]">Conditional</animation>
                 <top>-15</top>
                 <right>-15</right>
                 <left>-15</left>

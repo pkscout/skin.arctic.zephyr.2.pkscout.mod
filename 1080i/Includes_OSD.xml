@@ -119,10 +119,10 @@
 
                         <control type="progress" id="401">
                             <left>340</left>
-	                        <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
-	                        <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
-    	                    <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
-        	                <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
+                            <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
+                            <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
                             <bottom>140</bottom>
                             <height>12</height>
                             <info>Player.Progress</info>
@@ -133,10 +133,10 @@
                             <centerbottom>95</centerbottom>
                             <height>20</height>
                             <left>340</left>
-	                        <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
-	                        <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
-    	                    <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
-        	                <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
+                            <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
+                            <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
                             <control type="label">
                                 <textcolor>panel_fg_100</textcolor>
                                 <include>OSD_Menubar_Items</include>
@@ -179,10 +179,10 @@
                         <control type="grouplist">
                             <bottom>view_pad</bottom>
                             <left>340</left>
-	                        <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
-	                        <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
-    	                    <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
-        	                <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
+                            <include condition="Skin.HasSetting(ShowOSDClearArt) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right340</include>
+                            <include condition="!Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_Right170</include>
+                            <include condition="Skin.HasSetting(DisableMusicOSDArtistImage) + !Skin.HasSetting(UseLongMusicOSD)">OSD_RightSide</include>
                             <height>234</height>
                             <orientation>vertical</orientation>
                             <usecontrolcoords>true</usecontrolcoords>

@@ -15,11 +15,11 @@
         <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
     </extension>
     <extension point="xbmc.addon.metadata">
-    	<news>
+        <news>
 0.5.2~beta3
 - simpler PVR timer list page
 - made detailed PVR information part of core and removed option to change it
-    	</news>
+        </news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
         <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>

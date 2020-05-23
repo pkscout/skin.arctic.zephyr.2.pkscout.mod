@@ -786,91 +786,47 @@
         <param name="pad" default="20" />
         <param name="selectbox" default="false" />
         <definition>
-            <control type="image">
-                <visible>$PARAM[selectbox]</visible>
-                <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
-            </control>
-            
-            <!-- Add Timer Item -->
-			<control type="label">
-				<visible>String.IsEmpty(ListItem.Date)</visible>
-				<left>$PARAM[pad]</left>
+            <control type="group">
+                <left>$PARAM[pad]</left>
                 <right>$PARAM[pad]</right>
-				<include content="Object_Variable_Font">
-			    	<param name="std" value="font_medium_bold" />
-			    	<param name="alt" value="font_small_bold" />
-			    	<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-			    </include>
-                <textcolor>$PARAM[fgcolor]_100</textcolor>
-                <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
-				<label>$INFO[ListItem.Label]</label>        
-            </control>
-
-			<!-- PVR list -->
-			<control type="group">
-				<visible>!String.IsEmpty(ListItem.Date)</visible>
-				<left>$PARAM[pad]</left>
-                <right>$PARAM[pad]</right>
-				<control type="label">
-					<height>30</height>
-					<aligny>top</aligny>
-					<include content="Object_Variable_Font">
-				    	<param name="std" value="font_small" />
-				    	<param name="alt" value="font_tiny" />
-				    	<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-				    </include>
-
+	            <control type="image">
+	                <left>-$PARAM[pad]</left>
+    	            <right>-$PARAM[pad]</right>
+    	            <visible>$PARAM[selectbox]</visible>
+        	        <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+            	</control>
+                <control type="label">
+					<visible>String.IsEmpty(ListItem.Date)</visible>
+                    <aligny>center</aligny>
+                    <font>font_small_bold</font>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
-					<label>$INFO[ListItem.Label]$INFO[ListItem.ChannelName, - ]</label>
-				</control>
-				<control type="label">
-					<top>40</top>
-					<width>680</width>
-					<height>30</height>
-					<aligny>top</aligny>
-					<include content="Object_Variable_Font">
-				    	<param name="std" value="font_tiny" />
-				    	<param name="alt" value="font_statusbar" />
-				    	<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-			    	</include>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+                <control type="label">
+					<visible>!String.IsEmpty(ListItem.Date)</visible>
+                    <aligny>top</aligny>
+                    <font>font_small_bold</font>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
-					<label>$VAR[Label_TimersSubLabel]</label>
-				</control>
-				<control type="label">
-					<right>0</right>
-					<width>900</width>
-					<height>70</height>
-					<align>right</align>
-					<aligny>top</aligny>
-					<include content="Object_Variable_Font">
-				    	<param name="std" value="font_small" />
-				    	<param name="alt" value="font_tiny" />
-				    	<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-				    </include>
-
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+                <control type="label">
+                    <align>right</align>
+                    <aligny>top</aligny>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
-					<label>$INFO[ListItem.Comment]</label>
-				</control>
+                    <label>$INFO[ListItem.Comment]</label>
+                </control>
 				<control type="label">
-					<right>0</right>
-					<top>40</top>
-					<width>900</width>
-					<height>75</height>
-					<align>right</align>
+					<top>35</top>
 					<aligny>top</aligny>
-					<include content="Object_Variable_Font">
-				    	<param name="std" value="font_tiny" />
-				    	<param name="alt" value="font_statusbar" />
-				    	<param name="usealt" value="$EXP[FontSetIsMediumOrLarger]" />
-			    	</include>
+					<font>font_tiny</font>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
 					<label>$INFO[ListItem.Date]</label>
 				</control>
-			</control>
+            </control>
         </definition>
     </include>
 

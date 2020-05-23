@@ -921,7 +921,7 @@
             <param name="label" value="ListItem.StartTime" />
             <param name="label2" value="$INFO[ListItem.EndTime,  -  ,]" />
         </include>
-        <include content="Object_Info_TextPairs" condition="!Skin.HasSetting(PVR.DisableDetailedInfo)">
+        <include content="Object_Info_TextPairs">
             <param name="pad" value="24" />
             <param name="name" value="$LOCALIZE[180]" />
             <param name="label" value="ListItem.Duration" />

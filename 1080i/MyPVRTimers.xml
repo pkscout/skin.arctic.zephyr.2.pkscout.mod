@@ -7,8 +7,7 @@
     <controls>
         <include>Global_Background</include>
         <include>Topbar</include>
-        <include condition="Skin.HasSetting(PVR.DisableDetailedInfo)">View_500_List_Square</include>
-        <include condition="!Skin.HasSetting(PVR.DisableDetailedInfo)">View_500_List_PVR</include>
+        <include>View_500_List_PVR</include>
 
         <control type="list" id="300">
             <ondown>500</ondown>

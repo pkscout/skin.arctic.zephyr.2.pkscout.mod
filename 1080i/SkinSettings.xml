@@ -780,14 +780,6 @@
                         <onclick>Skin.ToggleSetting(PVRGuide.ChannelNumber)</onclick>
                     </control>
 
-                    <control type="radiobutton" id="19606" description="Use detailed PVR listings">
-                        <visible>Integer.IsEqual(Window.Property(CurrentFocus),9006)</visible>
-                        <include>Defs_Settings_Button</include>
-                        <label>$LOCALIZE[31440]</label>
-                        <selected>!Skin.HasSetting(PVR.DisableDetailedInfo)</selected>
-                        <onclick>Skin.ToggleSetting(PVR.DisableDetailedInfo)</onclick>
-                    </control>
-
               <control type="label" id="19682" description="LABEL">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9006)</visible>
                         <include>Dialog_Standard_HintLabel</include>

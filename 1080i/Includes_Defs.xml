@@ -15,15 +15,24 @@
     </variable>
     
     <variable name="Defs_WidgetTextContrast_Start">
-		<value condition="Skin.HasSetting(EnableHighContrastWidgetText)">70</value>
-		<value>40</value>
+        <value condition="Skin.HasSetting(EnableHighContrastWidgetText)">70</value>
+        <value>40</value>
     </variable>
 
     <variable name="Defs_WidgetTextContrast_End">
-		<value condition="Skin.HasSetting(EnableHighContrastWidgetText)">70</value>
-		<value>40</value>
+        <value condition="Skin.HasSetting(EnableHighContrastWidgetText)">70</value>
+        <value>40</value>
     </variable>
-
+    
+    <variable name="Defs_ItemLayout_LeftSideObjectSlideVertical">
+        <value condition="!String.IsEqual(ListItem.DBType,episode) + !$EXP[FontSetIsMediumOrLarger]">-40</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode) + !Integer.IsGreater(ListItem.Season,999) + !$EXP[FontSetIsMediumOrLarger]">-30</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode) + Integer.IsGreater(ListItem.Episode,99) + !$EXP[FontSetIsMediumOrLarger]">15</value>
+        <value condition="!String.IsEqual(ListItem.DBType,episode) + $EXP[FontSetIsMediumOrLarger]">-30</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode) + !Integer.IsGreater(ListItem.Season,999) + $EXP[FontSetIsMediumOrLarger]">-20</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode) + Integer.IsGreater(ListItem.Episode,99) + $EXP[FontSetIsMediumOrLarger]">5</value>
+        <value>0</value>
+    </variable>
 
     <include name="Defs_PauseAtEnd_Value">
         <pauseatend>$PARAM[time]</pauseatend>

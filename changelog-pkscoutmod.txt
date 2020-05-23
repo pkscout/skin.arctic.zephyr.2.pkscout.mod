@@ -1,3 +1,7 @@
+0.5.2~beta4
+- change in method for variable slide of list
+- ensured consistent XML formatting using spaces instead of tabs
+
 0.5.2~beta3
 - simpler PVR timer list page
 - made detailed PVR information part of core and removed option to change it

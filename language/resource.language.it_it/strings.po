@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: Italian"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /1080i/Custom_1134_Custom_Hub.xml
@@ -1487,11 +1487,6 @@ msgstr ""
 msgctxt "#31436"
 msgid "Info Wall 2"
 msgstr ""
-
-#: /1080i/Includes_View_54_AEL.xml
-msgctxt "#31437"
-msgid "ROM Info Wall Trailer"
-msgstr "" 
 
 #: /1080i/Includes_DialogMusicInfo.xml
 msgctxt "#31437"

@@ -1,6 +1,7 @@
 0.5.2~beta4
 - change in method for variable slide of list
 - ensured consistent XML formatting using spaces instead of tabs
+- remarked out include line that references non-existent file
 
 0.5.2~beta3
 - simpler PVR timer list page

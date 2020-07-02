@@ -886,7 +886,7 @@
                         <label>$LOCALIZE[31161]</label>
                     </control>
 
-                    <control type="radiobutton" id="19801">
+<!--                    <control type="radiobutton" id="19801">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.skin.helper.service</label>
                         <label2>$INFO[System.AddonVersion(script.skin.helper.service)]        </label2>
@@ -894,8 +894,8 @@
                         <onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
                         <selected>System.HasAddon(script.skin.helper.service)</selected>
                         <include>Defs_Settings_Button</include>
-                    </control>
-                    <control type="radiobutton" id="19802">
+                    </control> -->
+<!--                    <control type="radiobutton" id="19802">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.skin.helper.widgets</label>
                         <label2>$INFO[System.AddonVersion(script.skin.helper.widgets)]        </label2>
@@ -903,7 +903,7 @@
                         <onclick condition="!System.HasAddon(script.skin.helper.widgets)">InstallAddon(script.skin.helper.widgets)</onclick>
                         <selected>System.HasAddon(script.skin.helper.widgets)</selected>
                         <include>Defs_Settings_Button</include>
-                    </control>
+                    </control> -->
                     <control type="radiobutton" id="19803">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.skin.helper.colorpicker</label>
@@ -913,7 +913,7 @@
                         <selected>System.HasAddon(script.skin.helper.colorpicker)</selected>
                         <include>Defs_Settings_Button</include>
                     </control>
-                    <control type="radiobutton" id="19804">
+<!--                    <control type="radiobutton" id="19804">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.skin.helper.skinbackup</label>
                         <label2>$INFO[System.AddonVersion(script.skin.helper.skinbackup)]        </label2>
@@ -921,7 +921,7 @@
                         <onclick condition="!System.HasAddon(script.skin.helper.skinbackup)">InstallAddon(script.skin.helper.skinbackup)</onclick>
                         <selected>System.HasAddon(script.skin.helper.skinbackup)</selected>
                         <include>Defs_Settings_Button</include>
-                    </control>
+                    </control> -->
                     <control type="radiobutton" id="19805">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.module.metadatautils</label>
@@ -1097,7 +1097,7 @@
                     <!-- ================ -->
                     <!-- Backup / Restore -->
                     <!-- ================ -->
-                    <control type="label" id="19981" description="LABEL">
+<!--                    <control type="label" id="19981" description="LABEL">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9009)</visible>
                         <include>Dialog_Standard_HintLabel</include>
                         <label>$LOCALIZE[31162]</label>
@@ -1120,8 +1120,7 @@
                         <label>$LOCALIZE[31034]</label>
                         <onclick>Addon.OpenSettings(script.skin.helper.skinbackup)</onclick>
                         <onclick condition="!System.HasAddon(script.skin.helper.skinbackup)">InstallAddon(script.skin.helper.skinbackup)</onclick>
-                        
-                    </control>
+                    </control> -->
                     <control type="button" id="19904" description="Reset">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9009)</visible>
                         <include>Defs_Settings_Button</include>

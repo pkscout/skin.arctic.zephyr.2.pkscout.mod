@@ -882,6 +882,16 @@
                 <visible>ListItem.IsPlayable + !ListItem.IsRecording + !ListItem.HasTimer</visible>
                 <visible>$PARAM[visible]</visible>
             </control>
+            <!-- Has Archive (Catch Up) icon -->
+            <control type="image" id="2">
+                <aspectratio align="right">keep</aspectratio>
+                <top>5</top>
+                <width>517</width>
+                <height>24</height>
+                <texture>indicator/pvr-hasarchive.png</texture>
+                <visible>ListItem.IsPlayable</visible>
+                <visible>$PARAM[visible]</visible>
+            </control>
             <control type="image" id="2">
                 <aspectratio align="right">keep</aspectratio>
                 <top>5</top>
@@ -898,6 +908,16 @@
                 <height>24</height>
                 <texture>indicator/record.png</texture>
                 <visible>ListItem.IsRecording</visible>
+                <visible>$PARAM[visible]</visible>
+            </control>
+            <!-- Reminder icon -->
+            <control type="image" id="2">
+                <aspectratio align="right">keep</aspectratio>
+                <top>5</top>
+                <width>517</width>
+                <height>24</height>
+                <texture colordiffuse="$PARAM[fgcolor]">indicator/reminder.png</texture>
+                <visible>ListItem.HasReminder</visible>
                 <visible>$PARAM[visible]</visible>
             </control>
             <control type="label" id="1">
